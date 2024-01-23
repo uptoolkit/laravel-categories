@@ -51,7 +51,5 @@
         "Uptoolkit\\Categories\\CategoriesServiceProvider"
       ]
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
