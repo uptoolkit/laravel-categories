@@ -1,0 +1,57 @@
+{
+  "name": "uptoolkit/laravel-categories",
+  "description": "Associate Eloquent Models with Categories",
+  "keywords": [
+    "laravel",
+    "framework",
+    "categories",
+    "polymorphic",
+    "eloquent"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Sum",
+      "email": "daniel@sum.consulting",
+      "homepage": "https://www.sum.consulting"
+    },
+    {
+      "name": "Brian Faust",
+      "email": "hello@brianfaust.me",
+      "homepage": "https://brianfaust.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "kalnoy/nestedset": ">=4.3",
+    "spatie/laravel-sluggable": ">=2.1"
+  },
+  "require-dev": {
+    "graham-campbell/testbench": ">=5.0",
+    "mockery/mockery": ">=1.0",
+    "phpunit/phpunit": ">=6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Uptoolkit\\Categories\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Uptoolkit\\Tests\\Categories\\": "tests"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Uptoolkit\\Categories\\CategoriesServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
